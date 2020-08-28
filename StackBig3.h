@@ -27,7 +27,7 @@ public:
 
   Stack &operator=(const Stack &);
 
-  void push(const T &item);
+  void push(const T item);
   void pop(T &item);
   uint32_t top(T &cur_top);
   bool isEmpty() const;

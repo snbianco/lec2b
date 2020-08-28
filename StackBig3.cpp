@@ -35,7 +35,7 @@ Stack &Stack::operator=(const Stack &inStack) {
   return *this;
 }
 
-void Stack::push(const T &item) {
+void Stack::push(const T item) {
   stack[stackTop] = item;
   stackTop++;
 }
